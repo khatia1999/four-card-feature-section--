@@ -25,7 +25,17 @@
   .left {
     margin-top: 50rem;
   }
+}
 
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  html {
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
   .left,
   .first,
   .second,
