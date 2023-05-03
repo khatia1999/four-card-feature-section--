@@ -9,7 +9,8 @@
     font-size: 56.25%;
   }
   body {
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .main-div {
     display: flex;
@@ -23,5 +24,14 @@
 
   .left {
     margin-top: 50rem;
+  }
+
+  .left,
+  .first,
+  .second,
+  .right {
+    width: 25rem;
+    height: 25rem;
+    padding: 2rem 2rem;
   }
 }
