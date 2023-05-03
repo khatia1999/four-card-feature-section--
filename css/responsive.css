@@ -44,4 +44,12 @@
     height: 25rem;
     padding: 2rem 2rem;
   }
+  .left {
+    margin-top: 70rem;
+  }
+
+  img {
+    right: 4rem;
+    top: 18rem;
+  }
 }
